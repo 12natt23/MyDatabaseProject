@@ -7,4 +7,26 @@
     <ModelCollation>1033, CI</ModelCollation>
     <ProjectGuid>3D2C2FB6-18E7-494C-B281-91FFBFE09E46</ProjectGuid>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PreDeploy Include="prep-db.sql" />
+  </ItemGroup>
+  <ItemGroup>
+      <PostDeploy Include="PostDeploy.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Build Remove="Scripts\PostDeployment\seed-statuses.sql" />
+    <None Include="Scripts\PostDeployment\seed-statuses.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <Build Remove="Scripts\PostDeployment\seed-regions.sql" />
+      <None Include="Scripts\PostDeployment\seed-regions.sql" />
+  </ItemGroup>
+
+  <ItemGroup>
+      <Build Remove="Scripts\PostDeployment\seed-app-settings.sql" />
+      <None Include="Scripts\PostDeployment\seed-app-settings.sql" />
+  </ItemGroup>
 </Project>
