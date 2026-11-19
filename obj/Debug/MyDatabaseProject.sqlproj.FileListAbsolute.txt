@@ -1,0 +1,6 @@
+C:\Users\natis\MyDatabaseProject\bin\Debug\MyDatabaseProject.dacpac
+C:\Users\natis\MyDatabaseProject\obj\Debug\Model.xml
+C:\Users\natis\MyDatabaseProject\obj\Debug\refactor.xml
+C:\Users\natis\MyDatabaseProject\obj\Debug\postdeploy.sql
+C:\Users\natis\MyDatabaseProject\obj\Debug\predeploy.sql
+C:\Users\natis\MyDatabaseProject\obj\Debug\preplan.sql
